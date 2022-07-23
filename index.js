@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 /**content of express in app */
 const app = express();
-
+/* 0*/
 app.options( cors())
 /**server yekhm mrigl ou non  */
 app.use(express.json());
